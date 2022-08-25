@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use Faker\Factory as Faker;
-use Faker\Provider\fr_FR\PhoneNumber as Phone;
 
 class CompagniesSeeder extends Seeder
 {

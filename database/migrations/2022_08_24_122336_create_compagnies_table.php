@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('rue');
             $table->integer('code_commune');
             $table->integer('num_porte');
-            $table->integer('num_tel');
+            $table->string('num_tel');
             $table->string('email');
             $table->string('nom_contact');
             $table->string('prenom_contact');
